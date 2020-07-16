@@ -31,7 +31,7 @@ audio-annotator also provides mechanisms for providing real-time feedback to the
    4. hiddenImage (Annotation score is calculated and recorded with each action the user takes. A message will appear telling the user if they are improving or not. Also parts of a hidden image will be revealed to the user. Solution set and image src are required)
    
 ### To Demo
-1. In the audio-annotator/ directory run `python -m SimpleHTTPServer`
+1. In the audio-annotator/ directory run `python -m SimpleHTTPServer` or `python3 -m http.server`
 2. Visit <http://localhost:8000/examples> in your browser to see the verison with annotation and proximity tags. This demo also uses the spectrogram visualization, and does not provide the user with feedback as they annotate the clip.
 3. Visit <http://localhost:8000/examples/curiosity.html> in your browser to see the verison with just annotation tags. This demo also uses the spectrogram visualization, and provides the user feedback in the form of revealing a hidden image as the user correctly annotate the sound clip.
 
